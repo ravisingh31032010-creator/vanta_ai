@@ -1,0 +1,1 @@
+{"title":"VANTA Overview","panels":[{"type":"stat","title":"Active Tracks","targets":[{"expr":"sum(vanta_active_tracks_count)"}]},{"type":"timeseries","title":"Stream FPS","targets":[{"expr":"vanta_stream_fps"}]},{"type":"timeseries","title":"Inference Latency","targets":[{"expr":"rate(vanta_inference_latency_seconds_sum[1m])"}]}],"schemaVersion":39}
